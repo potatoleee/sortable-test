@@ -6,7 +6,7 @@ const isArrEqual = (arr1, arr2) => {
 };
 const answerAry = ["1", "2", "3", "4"];
 
-var candidate = Sortable.create(candidateDOM, {
+var candidate = Sortable.create(candidateDOM, { 
   group: "shart",
   animation: 500
 });
