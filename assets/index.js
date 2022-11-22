@@ -13,7 +13,7 @@ var candidate = Sortable.create(candidateDOM, {
 
 var productBacklog = Sortable.create(productBacklogDOM, {
   group: "shart",
-  onChange: () => {
+  onSort: () => {
     const answerMessage = document.querySelector(".message");
     let order = productBacklog.toArray();
     console.log(order);
